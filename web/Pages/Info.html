@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info page</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- lightbox popup -->
+    <link rel="stylesheet" href="../Styles/Lightbox.css" />
+    <!-- Bootstrap 5 cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome 5 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom style -->
+    <link rel="stylesheet" href="../Styles/Style.css" />
+    <link rel="stylesheet" href="../Styles/Responsive.css" />
+</head>
+<!-- <h1>Hello</h1> -->
+<body>
+    <header id="full_nav">
+        <div class="header">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="index.html">
+                <img decoding="async" src="./images/00.00.png" alt="" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#main-nav"
+                aria-controls="main-nav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fas fa-stream navbar-toggler-icon"></i>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                  </li>
+  
+                  <li class="nav-item">
+                    <a class="nav-link" href="Product.html">Product</a>
+                  </li>
+  
+                  <li class="nav-item">
+                    <a class="nav-link" href="Info.html">Info</a>
+                  </li>
+  
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                      <a class="nav-link" href="Login.html">Login</a>
+                    </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header><br><br><br><br><br><br><br><br>
+      
+
+    <!-- HTML main code start -->
+
+    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agriculture Information</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.5rem;
+        }
+
+        /* Main Content */
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Flexbox Layout for Text and Image */
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
+        .text {
+            flex: 1 1 60%;
+            font-size: 1.7rem;
+            line-height: 1.6;
+        }
+
+        .image {
+            flex: 1 1 35%;
+            text-align: center;
+        }
+
+        .image img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* List Styles */
+        .list-items ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* YouTube Video */
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Exploring Agriculture: The Heart of Our Economy</h1>
+</header>
+
+<main>
+    <!-- What is Agriculture Section -->
+    <section>
+        <h1>What is Agriculture?</h1>
+        <div class="content">
+            <div class="text">
+                <p>Agriculture is the practice of cultivating soil, growing crops, and raising animals for food, fiber, medicinal plants, and other products used to sustain and enhance human life. It has been the cornerstone of civilization for thousands of years, and today, it remains the primary source of food and raw materials for much of the world.</p>
+                <p>Agriculture can be classified into several types, including crop production, livestock farming, and agroforestry. Each plays a critical role in feeding the world’s population and providing essential resources for economic development.</p>
+            </div>
+            <div class="image">
+                <img src="../Images/image.png" alt="Agriculture Field" title="Agriculture">
+            </div>
+        </div>
+    </section>
+
+    <!-- Types of Agriculture Section -->
+    <section>
+        <h2>Types of Agriculture</h2>
+        <div class="content">
+            <div class="text">
+                <h3>1. Crop Farming</h3>
+                <p>Crop farming, or crop production, involves growing plants for food, fiber, medicinal, and other purposes. Major types include:</p>
+                <div class="list-items">
+                    <ul>
+                        <li>Cereal crops (wheat, rice, maize)</li>
+                        <li>Legumes (beans, peas)</li>
+                        <li>Root crops (potatoes, yams)</li>
+                        <li>Vegetables (tomatoes, lettuce, cucumbers)</li>
+                    </ul>
+                </div>
+
+                <h3>2. Livestock Farming</h3>
+                <p>Livestock farming involves breeding and raising animals for meat, dairy, wool, and other products. Major animals include:</p>
+                <div class="list-items">
+                    <ul>
+                        <li>Cattle (beef and dairy)</li>
+                        <li>Sheep and goats</li>
+                        <li>Poultry (chickens, ducks)</li>
+                        <li>Pigs (for pork production)</li>
+                    </ul>
+                </div>
+
+                <h3>3. Agroforestry</h3>
+                <p>Agroforestry is the integration of trees and shrubs into agricultural systems. It combines agricultural crops and forestry to improve biodiversity, soil health, and environmental sustainability.</p>
+            </div>
+            <div class="image">
+                <img src="../Images/p2.jpg" alt="Harvesting Crops" title="Harvesting Crops">
+            </div>
+        </div>
+    </section>
+
+    <!-- Importance of Agriculture Section -->
+    <section>
+        <h2>Importance of Agriculture</h2>
+        <div class="content">
+            <div class="text">
+                <p>Agriculture plays a crucial role in the global economy and society. Here are some reasons why agriculture is important:</p>
+                <div class="list-items">
+                    <ul>
+                        <li><strong>Food Production:</strong> Agriculture is the primary source of food for humans, producing essential crops like wheat, rice, corn, and vegetables.</li>
+                        <li><strong>Economic Contribution:</strong> Agriculture contributes to the economy of many countries, especially in developing regions where it is a significant source of income.</li>
+                        <li><strong>Employment:</strong> A large portion of the global workforce is employed in agriculture, from farmers to agribusiness workers.</li>
+                        <li><strong>Sustainability:</strong> Agriculture supports sustainable practices, such as organic farming, conservation, and resource management.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image">
+                <img src="../Images/p3.webp" alt="Sustainable Farming" title="Sustainable farming">
+            </div>
+        </div>
+    </section>
+
+    <!-- Agricultural Products Section -->
+    <section>
+        <h2>Agricultural Products</h2>
+        <div class="content">
+            <div class="text">
+                <p>Agricultural products are essential resources for human consumption, industrial use, and export. Some of the most common agricultural products include:</p>
+                <div class="list-items">
+                    <ul>
+                        <li><strong>Food Crops:</strong> Wheat, rice, corn, barley, and other grains are staple foods around the world.</li>
+                        <li><strong>Fiber Crops:</strong> Cotton, flax, and hemp are used in the textile industry.</li>
+                        <li><strong>Animal Products:</strong> Dairy, meat, wool, and leather are important by-products of livestock farming.</li>
+                        <li><strong>Cash Crops:</strong> Coffee, tea, cocoa, and spices are grown primarily for export in many developing countries.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image">
+                <img src="../Images/p4.jpg" alt="Agricultural Products" title="Agricultural product">
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Agriculture Facts Section -->
+    <section>
+        <h2>Global Agriculture Facts</h2>
+        <div class="content">
+            <div class="text">
+                <p>Here are some interesting and important facts about global agriculture:</p>
+                <div class="list-items">
+                    <ul>
+                        <li><strong>Over 1 billion people:</strong> Over 1 billion people worldwide rely on agriculture for their livelihoods.</li>
+                        <li><strong>Land Use:</strong> Nearly 40% of the Earth’s land area is used for agricultural activities.</li>
+                        <li><strong>Top Agricultural Producers:</strong> China, India, and the USA are among the top producers of agricultural goods.</li>
+                        <li><strong>Organic Agriculture:</strong> Over 70 million hectares of land globally are certified for organic farming.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image">
+                <img src="../Images/p5.jpg" alt="Global Agriculture Facts" title="Global Agriculture Facts">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainable Agricultural Practices Section -->
+    <section>
+        <h2>Sustainable Agricultural Practices</h2>
+        <div class="content">
+            <div class="text">
+                <p>Sustainable agriculture is about meeting society’s food and textile needs in the present without compromising the ability of future generations to meet their own needs. Key practices include:</p>
+                <div class="list-items">
+                    <ul>
+                        <li><strong>Crop Rotation:</strong> Growing different crops in a sequence to improve soil health and reduce pests.</li>
+                        <li><strong>Organic Farming:</strong> Using natural fertilizers and pesticides to protect the environment.</li>
+                        <li><strong>Agroecology:</strong> Integrating ecological principles into farming to promote sustainability.</li>
+                        <li><strong>Conservation Tillage:</strong> Reducing soil erosion and maintaining soil health by minimizing tillage.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image">
+                <img src="../Images/p6.jpg" alt="Sustainable Agriculture" title="Sustainable Agricultural Practices">
+            </div>
+        </div>
+    </section>
+
+    <!-- Agricultural Challenges Section -->
+    <section>
+        <h2>Challenges in Agriculture</h2>
+        <div class="content">
+            <div class="text">
+                <p>Despite its importance, agriculture faces several challenges in the modern world:</p>
+                <div class="list-items">
+                    <ul>
+                        <li><strong>Climate Change:</strong> Changes in weather patterns, extreme heat, droughts, and floods can affect crop yields and livestock health.</li>
+                        <li><strong>Land Degradation:</strong> Over-farming and deforestation have led to the degradation of arable land, reducing the available area for agriculture.</li>
+                        <li><strong>Water Scarcity:</strong> Access to fresh water for irrigation is becoming more limited, particularly in areas that rely on agriculture for their livelihood.</li>
+                        <li><strong>Pest and Disease Management:</strong> Crops and livestock are vulnerable to diseases, pests, and new pathogens that can devastate entire harvests.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image">
+                <img src="../Images/j8.jpg" alt="Soil Degradation" title="Challenges in Agriculture">
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Agricultural Technologies Section -->
+    <section>
+        <h2>Modern Agricultural Technologies</h2>
+        <div class="content">
+            <div class="text">
+                <p>Modern agriculture has evolved with new technologies that improve efficiency, productivity, and sustainability:</p>
+                <div class="list-items">
+                    <ul>
+                        <li><strong>Precision Agriculture:</strong> Uses GPS, drones, and IoT to optimize farming practices, such as planting, irrigation, and fertilization.</li>
+                        <li><strong>Genetically Modified Organisms (GMOs):</strong> Crops are engineered to be resistant to pests, diseases, and harsh environmental conditions, improving yields.</li>
+                        <li><strong>Vertical Farming:</strong> A method of growing crops in stacked layers, often in urban environments, to save space and reduce transportation costs.</li>
+                        <li><strong>Robotics and Automation:</strong> Automated machinery, drones, and robots are used for planting, harvesting, and monitoring crops.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image">
+                <img src="../Images/j9.webp" alt="Precision Farming" title="Modern Agricultural Technologies">
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn More Section -->
+    <section>
+        <h2>Learn More About Agriculture: Video</h2>
+        <div class="content">
+            <div class="text">
+                <p>For more practical knowledge about farming click on <a href="https://www.youtube.com/watch?v=AnnZFYXnlfw">this</a> text.</p>
+            </div>
+            <div class="image">
+                <!-- Embed YouTube Video -->
+                <video width="400" height="300" controls title="For more details click on embedded text">
+                    <source src="../Images/ks.mp4" type="video/mp4">
+                    <source src="../Images/ks.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+
+
+
+
+    <!-- HTML main code end -->
+
+      <section class="footer_wrapper mt-3 mt-md-0">
+        <div class="container px-5 px-lg-0">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Support</h5>
+                    <div class="contact-info">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-home me-3"></i> Kolkata, India</a></li>
+                            <li><a href="#"><i class="fa fa-phone me-3"></i>+91 74395 41204</a></li>
+                            <li><a href="#"><i class="fa fa-envelope me-3"></i>rrasdsspdd@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Top agricultural country Govt. link</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="https://agriwelfare.gov.in/">India Govt. Agriculture Dept.</a></li>
+                        <li><a href="https://www.usda.gov/">United State Govt. Agriculture Dept.</a></li>
+                        <li><a href="https://www.government.nl/ministries/ministry-of-agriculture-fisheries-food-security-and-nature">Netherlands Govt. Agriculture Dept.</a></li>
+                        <li><a href="https://www.bmel.de/EN/Home/home_node.html">Germany Govt. Agriculture Dept.</a></li>
+                        <li><a href="https://www.abc.gov.br/training/informacoes/InstituicaoMAPA_en.aspx">Brazil Govt. Agriculture Dept.</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Top agricultural institute</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="https://icar.org.in/institutes">ICAR</a></li>
+                        <li><a href="https://www.wur.nl/en.htm">WAGENINGEN</a></li>
+                        <li><a href="https://www.harvard.edu/">HARVARD</a></li>
+                        <li><a href="https://www.ox.ac.uk/">OXFORD</a></li>
+                        <li><a href="https://www.cam.ac.uk/">CAMBRIDGE</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                  <h5>Stay Connected</h5>
+                  <ul class="social-network d-flex align-items-center p-0">
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-section">
+          <marquee bgcolor="#212f3c" direction="left" behavior="alternate">
+              <i><font size="4" color="white">~THANK YOU -- VISIT AGAIN -- HAVE A GOOD DAY~</font></i>
+          </marquee>
+        </div>
+      </section>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <!-- custom js -->
+     <script src="../Scripts/main.js"></script>
+
+</body>
+</html>

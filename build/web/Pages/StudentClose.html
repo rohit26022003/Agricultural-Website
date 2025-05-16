@@ -1,0 +1,30 @@
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email Closure</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            alert("New Link for password has been generated and sent to your mail!!! \n For security reasons your browser is now getting closed");
+            window.close();
+            if(window.parent) window.parent.window.close();    
+        </script>
+    </head>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>File Upload</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <form method="POST" action="http://localhost:8080/AgriEvolution/Uploadservlet" enctype="multipart/form-data" >
+            File:
+            <input type="file" name="file" id="file" /> <br/>
+            Destination:
+            <input type="text" value="/tmp" name="destination"/>
+            </br>
+            <input type="submit" value="Upload" name="upload" id="upload" />
+        </form>
+    </body>
+</html>

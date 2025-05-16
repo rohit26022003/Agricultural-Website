@@ -1,0 +1,625 @@
+<%-- 
+    Document   : Home
+    Created on : 17 Nov, 2024, 11:31:44 AM
+    Author     : ramkr
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TB-4</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- lightbox popup -->
+    <link rel="stylesheet" href="../Styles/Lightbox.css" />
+    <!-- Bootstrap 5 cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome 5 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom style -->
+    <link rel="stylesheet" href="../Styles/Style.css" />
+    <link rel="stylesheet" href="../Styles/Responsive.css" />
+      <script>
+         let submenu=document.getElementById("subMenu");
+         function toogleMenu(){
+         submenu.classList.toggle("open-menu");
+}</script>
+  </head>
+  <body>
+    <!-- Navbar Section Start -->
+    <header id="full_nav">
+      <div class="header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="Home.html">
+              <img decoding="async" src="../Images/00.00.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+<!--              data-bs-target="#main-nav"-->
+              aria-controls="main-nav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <!-- <span class="navbar-toggler-icon"></span> -->
+              <i class="fas fa-stream navbar-toggler-icon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main-nav">
+              <div class="navbar-nav mx-auto">
+                <div class="nav-item">
+                  <a class="nav-link" href="Home.html">Home</a>
+                </div>
+
+                <div class="nav-item">
+                  <a class="nav-link" href="Product.html">Product</a>
+                </div>
+
+                <div class="nav-item">
+                  <a class="nav-link" href="Info.html">Info</a>
+                </div>
+
+                <div class="nav-item">
+                  <a class="nav-link" href="Contact.html">Contact</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="Login.html">Login</a>
+                  </div>
+              </div>
+                <div class="profile">
+                  <div class="nav-item">
+                       <img src="../Images/profile.jpg" alt="profile img" class="user-pic" onclick="toogleMenu()" >
+                </div>
+              </div>
+            </div>
+              <div class="sub-menu-wrap" id="subMenu">
+                  <div class="sub-menu">
+                      <div class="user-info">
+                          <img src="../Images/profile.jpg" alt="profile img" class="user-pic-click">
+                          <h5>Ramkrishna Sarkar</h5>
+                      </div>
+                      <hr>
+                      
+                      <a href="#" class="sub-menu-link">
+                          <img src="../Images/customer.png">
+                          <p>Edit Profile</p>
+                          <span>></span>
+                      </a>
+                      <a href="#" class="sub-menu-link">
+                          <img src="../Images/Addtocart1.png">
+                          <p>Add to cart</p>
+                          <span>></span>
+                      </a>
+                      <a href="#" class="sub-menu-link">
+                          <img src="../Images/logout.png">
+                          <p>Logout</p>
+                          <span>></span>
+                      </a>
+                  </div>
+              </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar Section Exit -->
+    <!-- banner Section start -->
+    <section class="banner_section">
+      <div class="container">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption">
+                <div class="banner-content">
+                  <h1><font color="white">100% Organic</font></h1>
+                  <h3>High quality farming products </h3>
+                  <p>
+                              
+                  </p>
+                  <a href="Product.html" class="btn main-btn">All Products</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="carousel-caption">
+                  <div class="banner-content">
+                    <h1><font color="white">100% Original<br> Accessories</font></h1>
+                    <h3>High quality farming goods</h3>
+                    <p>
+                                  
+                    </p>
+                    <a href="Product.html" class="btn main-btn">All Products</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- banner Section exit -->
+    <!-- Features Section start -->
+    <section class="feature_section">
+      <div class="container">
+          <div class="row">
+              <div class="col-6 col-lg-3 mb-5">
+                  <div class="card features-box">
+                      <div class="text-center">
+                          <div class="features-icon-border">
+                              <div class="features-icon">
+                                  <img decoding="async" src="../Images/feature-icon/ui-chat.svg">
+                              </div>
+                          </div>
+                          <div class="features-text">
+                              <h3>24/07 Support</h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-6 col-lg-3 mb-5">
+                  <div class="card features-box">
+                      <div class="text-center">
+                          <div class="features-icon-border">
+                              <div class="features-icon">
+                                  <img decoding="async" src="../Images/feature-icon/truck-loaded.svg">
+                              </div>
+                          </div>
+                          <div class="features-text">
+                              <h3>Free Shipping</h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-6 col-lg-3 mb-5">
+                  <div class="card features-box">
+                      <div class="text-center">
+                          <div class="features-icon-border">
+                              <div class="features-icon">
+                                  <img decoding="async" src="../Images/feature-icon/wheat.svg">
+                              </div>
+                          </div>
+                          <div class="features-text">
+                              <h3>Fresh & Healthy</h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-6 col-lg-3 mb-5">
+                  <div class="card features-box">
+                      <div class="text-center">
+                          <div class="features-icon-border">
+                              <div class="features-icon">
+                                  <img decoding="async" src="../Images/feature-icon/lemon.svg">
+                              </div>
+                          </div>
+                          <div class="features-text">
+                              <h3>100% Genuine</h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Features Section Exit -->
+   <!--About Section start -->
+   <section class="landing_about_section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-5 col-lg-6 col-sm-8">
+                <div class="about-content">
+                    <h2><b><i>Why Agriculture?</i></b></h2>
+                    <div class="about-details">
+                        <p class="fw-bold"><font color="black">Agriculture is the practice of cultivating natural resources to sustain human life and provide economic gain. It combines the creativity, imagination, and skill involved in planting crops and raising animals with modern production methods and new technologies.
+
+                            Agriculture is also a business that provides the global economy with commodities: basic goods used in commerce, such as grain, livestock, dairy, fiber, and raw materials for fuel.</font></p>
+                        <p></p>
+                        <p><b><font color="black">For thousands of years, agriculture has played an important role in everyday life. Before agriculture, hunting and gathering enabled humans to survive. It wasn’t until the transition to the planned sowing and harvesting of crops that humans began to thrive. Humans developed tools and practices to improve agricultural output with more efficient means of sustaining themselves. From there, innovations that created industries led to the modern era.</p>
+                        <p>Agriculture has given so much to society. But it has its own pros and cons that we can't overlook. Furthermore, the government is doing his every bit to help in the growth and development of agriculture; still, it needs to do something for the negative impacts of agriculture.</b></font></p>
+
+                        <!-- <a href="about.html" class="btn main-btn">Read More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <!--About Section Exit -->
+<!--Product Section start -->
+<section class="landing_product_section">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-12 text-center pb-5">
+              <h2 class="section-title">Our Best Seller Product</h2>
+              <!-- <p class="section-subtitle">The Passage Experienced A Surge In Popularity During The 1960s When
+                  Again During The 90s As Desktop Publishers</p> -->
+          </div>
+      </div>
+
+      <div class="row mx-0">
+          <div class="col-lg-3 col-sm-6 mb-5">
+              <div class="card product-card">
+                  <div class="product-img">
+                      <img decoding="async" src="../Images/products/product-1.jpeg" class="img-fluid" />
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                      <h3>????</h3>
+                      <span>$0,000</span>
+                  </div>
+                  <div class="product-detail">
+                     <a href="Product.html" class="btn main-btn">Add to cart</a>
+                      <a href="Product.html" class="btn main-btn">Buy</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5">
+              <div class="card product-card">
+                  <div class="product-img">
+                      <img decoding="async" src="../Images/products/product-2.jpeg" class="img-fluid" />
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                      <h3>????</h3>
+                      <span>$0,000</span>
+                  </div>
+                  <div class="product-detail">
+                      <a href="Product.html" class="btn main-btn">Add to cart</a>
+                      <a href="Product.html" class="btn main-btn">Buy</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5">
+              <div class="card product-card">
+                  <div class="product-img">
+                      <img decoding="async" src="../Images/products/product-3.jpeg" class="img-fluid" />
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                      <h3>????</h3>
+                      <span>$0,000</span>
+                  </div>
+                  <div class="product-detail">
+                      <a href="Product.html" class="btn main-btn">Add to cart</a>
+                      <a href="Product.html" class="btn main-btn">Buy</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5">
+              <div class="card product-card">
+                  <div class="product-img">
+                      <img decoding="async" src="../Images/products/product-4.jpeg" class="img-fluid" />
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between">
+                      <h3>????</h3>
+                      <span></span>
+                  </div>
+                  <div class="product-detail">
+                      <a href="Product.html" class="btn main-btn">Add to cart</a>
+                      <a href="Product.html" class="btn main-btn">Buy</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</section>
+<!--Product Section Exit -->
+<!-- testimonial Section start -->
+<section class="testimonial_section">
+  <div class="container">
+      <div class="row pb-5">
+          <div class="col-12 text-center">
+              <h2 class="section-title">Famous agricultural Scientist</h2>
+              <p class="section-subtitle">"A farmers is a magician who produce money from the mud."</p>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-xl-8 col-md-10">
+              <div id="testimonial-slider" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                      <button data-bs-target="#testimonial-slider" data-bs-slide-to="0" class="active"
+                          aria-current="true" aria-label="Slide 1"></button>
+                      <button data-bs-target="#testimonial-slider" data-bs-slide-to="1"
+                          aria-label="Slide 2"></button>
+                      <button data-bs-target="#testimonial-slider" data-bs-slide-to="2"
+                          aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="d-sm-flex row">
+                              <div class="profile-box col-sm-5">
+                                  <img decoding="async" src="../Images/testimonial/testimonial-1.jpeg" class="img-fluid">
+                              </div>
+                              <div class="card  col-sm-7">
+                                  <div class="desc-box">
+                                      <p class="fst-italic">"If agriculture goes wrong, nothing else will have a chance to go right."</p>
+                                      <div class="my-4">
+                                          <h4>M. S. Swaminathan</h4>
+                                          <p class="m-0 text-white">1995 - 2023</p>
+                                      </div>
+                                      <img decoding="async" src="../Images/testimonial/qoutes.svg" class="float-end">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="d-sm-flex row">
+                              <div class="profile-box col-sm-5">
+                                  <img decoding="async" src="../Images/testimonial/ddkk.jpg" class="img-fluid">
+                              </div>
+                              <div class="card  col-sm-7">
+                                  <div class="desc-box">
+                                      <p class="fst-italic">"Agriculture is our wisest pursuit, because it will end contribute most to real wealth, good morals and happiness".</p>
+                                      <div class="my-4">
+                                          <h4>Thomas Jefferson</h4>
+                                          <p class="m-0 text-white">1767 - 1824</p>
+                                      </div>
+                                      <img decoding="async" src="../Images/testimonial/qoutes.svg" class="float-end">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="d-sm-flex row">
+                              <div class="profile-box col-sm-5">
+                                  <img decoding="async" src="../Images/testimonial/eb.jpeg" class="img-fluid">
+                              </div>
+                              <div class="card  col-sm-7">
+                                  <div class="desc-box">
+                                      <p class="fst-italic">"A good farmer is nothing more nor less than a handy man with a sense of humans."</p>
+                                      <div class="my-4">
+                                          <h4>E. B. White</h4>
+                                          <p class="m-0 text-white">1899 - 1985</p>
+                                      </div>
+                                      <img decoding="async" src="../Images/testimonial/qoutes.svg" class="float-end">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+</section>
+<!--testimonial Section Exit -->
+ <!-- Gallery Section Start-->
+ <section class="gallery_section">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 text-center pb-5">
+              <h2 class="section-title">Our Gallery</h2>
+              <p class="section-subtitle">#Moments_of_farming</p>
+          </div>
+
+
+
+          
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 2s;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="../Images/gallery/g-1.jpg" style="width:100%" height="500" width="60">
+  <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="../Images/gallery/g-2.jpg" style="width:100%" height="500" width="60">
+  <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="../Images/gallery/g-3.jpg" style="width:100%" height="500" width="60">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="../Images/gallery/g-4.jpg" style="width:100%" height="500" width="60">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="../Images/gallery/g-5.jpg" style="width:100%" height="500" width="60">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="../Images/gallery/g-6.jpg" style="width:100%" height="500" width="60">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+<span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 5 seconds
+}
+</script>
+    </div>
+</section>
+<!-- Gallery Section Exit -->
+<!-- Footer section Start-->
+<section class="footer_wrapper mt-3 mt-md-0">
+    <div class="container px-5 px-lg-0">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Support</h5>
+                <div class="contact-info">
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fa fa-home me-3"></i> Kolkata, India</a></li>
+                        <li><a href="#"><i class="fa fa-phone me-3"></i>+91 74395 41204</a></li>
+                        <li><a href="#"><i class="fa fa-envelope me-3"></i>rrasdsspdd@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Top agricultural country Govt. link</h5>
+                <ul class="link-widget p-0">
+                    <li><a href="https://agriwelfare.gov.in/">India Govt. Agriculture Dept.</a></li>
+                    <li><a href="https://www.usda.gov/">United State Govt. Agriculture Dept.</a></li>
+                    <li><a href="https://www.government.nl/ministries/ministry-of-agriculture-fisheries-food-security-and-nature">Netherlands Govt. Agriculture Dept.</a></li>
+                    <li><a href="https://www.bmel.de/EN/Home/home_node.html">Germany Govt. Agriculture Dept.</a></li>
+                    <li><a href="https://www.abc.gov.br/training/informacoes/InstituicaoMAPA_en.aspx">Brazil Govt. Agriculture Dept.</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Top agricultural institute</h5>
+                <ul class="link-widget p-0">
+                    <li><a href="https://icar.org.in/institutes">ICAR</a></li>
+                    <li><a href="https://www.wur.nl/en.htm">WAGENINGEN</a></li>
+                    <li><a href="https://www.harvard.edu/">HARVARD</a></li>
+                    <li><a href="https://www.ox.ac.uk/">OXFORD</a></li>
+                    <li><a href="https://www.cam.ac.uk/">CAMBRIDGE</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+              <h5>Stay Connected</h5>
+              <ul class="social-network d-flex align-items-center p-0">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid copyright-section">
+      <marquee bgcolor="#212f3c" direction="left" behavior="alternate">
+          <b><i><font size="4" color="white">~THANK YOU -- VISIT AGAIN -- HAVE A GOOD DAY~</font></i></b>
+      </marquee>
+    </div>
+  </section>
+<!-- Footer Section Exit  -->
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <!-- custom js -->
+     <script src="../Scripts/main.js"></script>
+<!--     <script>
+         let submenu=document.getElementById("subMenu");
+         function toogleMenu(){
+         submenu.classList.toggle("open-menu");
+}</script>-->
+  </body>
+</html>
